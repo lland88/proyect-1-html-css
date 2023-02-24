@@ -53,12 +53,12 @@
 }
 
 .imagen {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .reaction {
   background-color: hsla(0, 100%, 67%, 0.07);
-  margin: 1vh 30px;
+  margin: 1vh 20px;
   color: hsl(0, 100%, 67%);
   display: flex;
 }
@@ -68,21 +68,21 @@
   display: flex;
 
   background-color: hsla(39, 100%, 56%, 0.07);
-  margin: 1vh 30px;
+  margin: 1vh 20px;
 }
 .verbal {
   color: hsl(166, 100%, 37%);
   display: flex;
 
   background-color: hsla(166, 100%, 37%, 0.07);
-  margin: 1vh 30px;
+  margin: 1vh 20px;
 }
 .visual {
   color: hsl(234, 85%, 45%);
   display: flex;
 
   background-color: hsla(234, 85%, 45%, 0.07);
-  margin: 1vh 30px;
+  margin: 1vh 20px;
 }
 
 .xde100 {
@@ -106,4 +106,54 @@ button {
   margin-top: 5vh;
   border-radius: 55px;
   border-color: hsl(224, 30%, 27%);
+}
+
+@media (min-width: 720px) {
+  .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 15px hsl(241, 100%, 89%);
+  }
+
+  .result {
+    max-height: 1200px;
+    max-width: 400px;
+    width: 50%;
+
+    height: 500px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .summary {
+    max-height: 1200px;
+    max-width: 400px;
+    width: 50%;
+    height: 500px;
+  }
+  button {
+    width: 80%;
+    height: 50px;
+    margin-top: 3vh;
+  }
+  button:hover {
+    background: linear-gradient(45deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+  .xde100 {
+  }
+
+  .cien1 {
+  }
 }
