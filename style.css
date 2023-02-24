@@ -61,33 +61,41 @@
   margin: 1vh 20px;
   color: hsl(0, 100%, 67%);
   display: flex;
+  justify-content: space-between;
+}
+
+.iconocontext {
+  display: flex;
+}
+
+.resultado {
+  display: flex;
 }
 
 .memory {
   color: hsl(39, 100%, 56%);
   display: flex;
-
+  justify-content: space-between;
   background-color: hsla(39, 100%, 56%, 0.07);
   margin: 1vh 20px;
 }
 .verbal {
   color: hsl(166, 100%, 37%);
   display: flex;
-
+  justify-content: space-between;
   background-color: hsla(166, 100%, 37%, 0.07);
   margin: 1vh 20px;
 }
 .visual {
   color: hsl(234, 85%, 45%);
   display: flex;
-
+  justify-content: space-between;
   background-color: hsla(234, 85%, 45%, 0.07);
   margin: 1vh 20px;
 }
 
 .xde100 {
   color: hsl(224, 30%, 27%);
-  margin-left: 25vw;
 }
 
 .cien1 {
@@ -116,7 +124,7 @@ button {
     width: fit-content;
     height: fit-content;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20vh;
     border-radius: 10%;
     box-shadow: 1px 1px 15px hsl(241, 100%, 89%);
   }
@@ -124,8 +132,7 @@ button {
   .result {
     max-height: 1200px;
     max-width: 400px;
-    width: 50%;
-
+    width: 35vw;
     height: 500px;
     border-radius: 10%;
     display: flex;
@@ -140,7 +147,7 @@ button {
   .summary {
     max-height: 1200px;
     max-width: 400px;
-    width: 50%;
+    width: 35vw;
     height: 500px;
   }
   button {
