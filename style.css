@@ -105,7 +105,7 @@
   margin-left: 15px;
 }
 
-button {
+.bcontinue {
   background-color: hsl(224, 30%, 27%);
   color: hsl(0, 0%, 100%);
   width: 82vw;
@@ -114,6 +114,38 @@ button {
   border-color: hsl(224, 30%, 27%);
   margin-top: 3vh;
   margin-left: 7vw;
+}
+
+.contactanos {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 5vh;
+  justify-content: center;
+}
+
+.bcontactanos {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 10vw;
+  min-width: 150px;
+  height: 45px;
+  border-radius: 55px;
+  border-color: hsl(224, 30%, 27%);
+}
+
+nav {
+  margin: auto;
+  background-color: hsl(224, 30%, 27%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  height: 45px;
+  width: 200px;
+  border-radius: 55px;
+}
+
+.inactive {
+  visibility: hidden;
 }
 
 @media (min-width: 720px) {
@@ -150,7 +182,7 @@ button {
     width: 35vw;
     height: 500px;
   }
-  button {
+  .bcontinue {
     width: 80%;
     height: 50px;
     margin-top: 4vh;
